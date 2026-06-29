@@ -3,16 +3,21 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     # support nice_oled and nice_epaper
-    - name: chyuuu
-      url-base: https://github.com/chyuuu
+    #- name: chyuuu
+    #url-base: https://github.com/chyuuu
+    - name: m165437 #new entry
+      url-base: https://github.com/M165437 #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     # support nice_oled and nice_epaper
-    - name: zmk-nice-oled
-      remote: chyuuu
-      revision: next-lvgl9
+    #- name: zmk-nice-oled
+    #remote: chyuuu
+    #revision: next-lvgl9
+    - name: nice-view-gem #new entry
+      remote: m165437 #new entry
+      revision: main #new entry
   self:
     path: config
