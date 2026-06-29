@@ -16,7 +16,6 @@ manifest:
     - name: nice-view-bunbun
       remote: chyuuu
       revision: master
-      path: nice-view-gem
     #- name: nice-view-gem #new entry
      # remote: m165437 #new entry
       #revision: main #new entry
